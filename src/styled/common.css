@@ -1,0 +1,11 @@
+/* 전체 공통부분만  */
+#wrap {
+    width: 100%;
+    min-width: 1600px;
+}
+.inner {
+    width: 1400px;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+}

@@ -1,0 +1,48 @@
+.mylist {
+    width: 1400px;
+    margin: auto;
+    border: 1px solid #000;
+    padding: 25px;
+    position: relative;
+    h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+
+    .btn {
+        text-align: center;
+        button {
+            padding: 12px 45px;
+            border-radius: 10px;
+            border: none;
+            background: #000;
+            outline: none;
+            margin-right: 10px;
+            color: #fff;
+            border: none;
+            margin-bottom: 50px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    .chk {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        border-radius: 30px;
+        display: block;
+        background: #333;
+        color: #fff;
+        width: 100px;
+        text-align: center;
+        padding: 10px 5px;
+        font-size: 12px;
+        input[type='checkbox'] {
+            width: 15px;
+            height: 15px;
+            vertical-align: top;
+        }
+    }
+}

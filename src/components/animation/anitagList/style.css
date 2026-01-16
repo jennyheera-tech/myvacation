@@ -1,0 +1,22 @@
+.tag {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    li {
+        padding: 8px 30px;
+        font-size: 16px;
+        border: none;
+        background: #333;
+        color: #fff;
+        margin-right: 30px;
+        cursor: pointer;
+        user-select: none;
+        border-radius: 25px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &.on {
+            background: #eb72d4;
+        }
+    }
+}

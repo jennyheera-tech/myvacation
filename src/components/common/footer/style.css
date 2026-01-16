@@ -1,0 +1,19 @@
+#footer {
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    background: #dcdcdc;
+}
+
+#footer .inner {
+    padding: 40px 60px;
+    height: 250px;
+    position: relative;
+}
+
+#footer .copy {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    font-size: 14px;
+    color: #777;
+}
