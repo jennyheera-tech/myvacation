@@ -6,7 +6,7 @@ import Movie from './pages/movie/Movie';
 
 function App() {
     return (
-        <HashRouter basename="/myvacation">
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/animation" element={<Animation />} />
