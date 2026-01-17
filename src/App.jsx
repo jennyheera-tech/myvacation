@@ -1,8 +1,8 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
+import Home from './pages/home';
 import Animation from './pages/animation/Animation';
 import Movie from './pages/movie/Movie';
-import Home from './pages/home';
 
 const App = () => {
     return (
@@ -13,7 +13,7 @@ const App = () => {
                     <Route path="/animation" element={<Animation />} />
                     <Route path="/movie" element={<Movie />} />
 
-                    {/* ✅ v7 필수 안전장치 */}
+                    {/* ⭐️ 이 줄 추가 */}
                     <Route path="*" element={<Home />} />
                 </Routes>
             </div>
