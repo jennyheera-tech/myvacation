@@ -1,76 +1,46 @@
 .form {
-    width: 1400px;
-    margin: 60px auto 0;
-    padding: 0;
+  width: 1400px;
+  margin: 60px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-    display: flex;
-    align-items: center;
+/* p */
+.form p {
+  margin: 0;
+  width: 500px;
+  display: flex;
+  gap: 10px;
+}
 
-    justify-content: space-between;
-    p {
-        margin: 0;
-        width: 500px;
-        display: flex;
-        gap: 10px;
-        background: ;
-    }
+/* input */
+.form input {
+  flex: 1;
+  height: 44px;
+  padding: 0 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
 
-    input {
-        flex: 1;
-        height: 44px;
-        padding: 0 14px;
-        border: 1px solid #e5e7eb;
-        border-radius: 10px;
-        background: #fff;
-        font-size: 14px;
-        outline: none;
-        transition: border-color 0.15s ease, box-shadow 0.15s ease;
+.form input::placeholder {
+  color: #9ca3af;
+}
 
-        &::placeholder {
-            color: #9ca3af;
-        }
+.form input:focus {
+  border-color: #00704a;
+  box-shadow: 0 0 0 4px rgba(0, 112, 74, 0.12);
+}
 
-        &:focus {
-            border-color: #00704a;
-            box-shadow: 0 0 0 4px rgba(0, 112, 74, 0.12);
-        }
-    }
+/* button */
+.form button {
+  height: 44px;
+  padding: 0 16px;
+  border-radius: 10px;
+}
 
-    button {
-        height: 44px;
-        padding: 0 16px;
-        border: 1px solid #00704a;
-        border-radius: 10px;
-        background: #090909;
-        color: #fff;
-        font-size: 14px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: transform 0.05s ease;
-
-        &:hover {
-        }
-
-        &:active {
-            transform: translateY(1px);
-        }
-    }
-
-    select {
-        width: 180px;
-        height: 44px;
-        padding: 0 12px;
-        border: 1px solid #e5e7eb;
-        border-radius: 10px;
-        background: #fff;
-        font-size: 14px;
-        outline: none;
-        cursor: pointer;
-        transition: border-color 0.15s ease, box-shadow 0.15s ease;
-
-        &:focus {
-            border-color: #00704a;
-            box-shadow: 0 0 0 4px rgba(0, 112, 74, 0.12);
-        }
-    }
+/* select */
+.form select {
+  width: 180px;
+  height: 44px;
 }
