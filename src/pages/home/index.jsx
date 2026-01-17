@@ -42,6 +42,21 @@ const Home = () => {
     };
     return (
         <>
+            {/* 🔴 테스트용: 이게 보이면 라우팅은 100% 정상 */}
+            <div
+                style={{
+                    position: 'fixed',
+                    top: 0,
+                    left: 0,
+                    zIndex: 9999,
+                    background: 'red',
+                    color: 'white',
+                    fontSize: '24px',
+                    padding: '10px',
+                }}
+            >
+                HOME IS RENDERED
+            </div>
             <Header />
             <HomeVisual />
             <article className="mylist">
