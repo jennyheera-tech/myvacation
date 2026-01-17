@@ -2,10 +2,10 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-    base: './',
+    base: '/myvacation/', // ⭐️ 이게 핵심
     plugins: [react()],
     build: {
-        outDir: 'docs', // ⭐️ 이 줄이 핵심
+        outDir: 'docs',
         emptyOutDir: true,
     },
 });
